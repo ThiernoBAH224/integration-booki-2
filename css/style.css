@@ -350,6 +350,23 @@ ul {
     nav div {
         padding-left: 20px;
     }
+
+    .menuhover {
+        color: var(--main-color);
+    }
+
+    .title-category {
+        white-space: nowrap;
+    }
+
+    .category {
+        display: flex;
+        justify-content: flex-start;
+    }
+    h3 {
+        font-size: 16px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
