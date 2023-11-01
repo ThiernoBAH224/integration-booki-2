@@ -157,6 +157,7 @@ h3 {
 .prix-article {
     padding-left: 0px;
     line-height: 0.5em;
+    padding-top: 5px;
 }
 
 .image-hebergement {
@@ -376,6 +377,10 @@ ul {
         font-size: 14px;
     }
 
+    .prix-article {
+        padding-top: 5px;
+    }
+
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
@@ -404,7 +409,7 @@ ul {
     .Activites {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 0px;
         width: 330px;
         padding-bottom: 30px;
     }
@@ -424,6 +429,11 @@ ul {
     footer {
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 380px;
+    }
+
+    ul,
+    .titre-footer {
+        padding-left: 10px;
     }
 }
