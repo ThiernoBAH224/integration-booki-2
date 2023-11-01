@@ -423,6 +423,18 @@ ul {
         grid-template-columns: 1fr 1fr;
         gap: 19px;
     }
+    .populaires-cards {
+        display: block;
+    }
+    .populaires {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 330px;
+    }
+
+    .card {
+        border: none;
+    }
     .Activites {
         display: grid;
         grid-template-columns: 1fr;
@@ -439,8 +451,6 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .menu {
     }
 
     footer {
