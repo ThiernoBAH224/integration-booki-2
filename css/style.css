@@ -423,8 +423,21 @@ ul {
         grid-template-columns: 1fr 1fr;
         gap: 19px;
     }
-    .populaires-cards {
+    .populaires-cards,
+    .hebergement-card {
         display: block;
+    }
+
+    .hebergements-and-populaires {
+        border: none;
+        box-sizing: none;
+    }
+
+    .hebergements {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 330px;
+        order: 2;
     }
     .populaires {
         display: grid;
@@ -451,6 +464,10 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .voir-plus {
+        margin-top: 10px;
     }
 
     footer {
