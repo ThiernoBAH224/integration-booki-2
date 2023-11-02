@@ -114,6 +114,11 @@ h3 {
     color: black;
 }
 
+.flex-category a {
+    display: flex;
+    padding-top: 20px;
+}
+
 .category {
     display: flex;
     flex-flow: row nowrap;
@@ -375,6 +380,10 @@ ul {
         white-space: nowrap;
     }
 
+    .flex-category a {
+        display: block;
+    }
+
     .category {
         display: flex;
         justify-content: flex-start;
@@ -507,7 +516,7 @@ ul {
     }
 
     .hebergements-and-populaires {
-        padding: 30px;
+        display: block;
     }
 
     .hebergements {
