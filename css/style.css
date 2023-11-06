@@ -483,6 +483,7 @@ ul {
     }
     .title-category {
         font-size: 14px;
+        padding: 4px 14px;
     }
     .menu {
         display: flex;
@@ -598,7 +599,8 @@ ul {
     }
 
     .voir-plus {
-        margin-top: 10px;
+        display: block;
+        padding-top: 15px;
     }
 
     footer {
