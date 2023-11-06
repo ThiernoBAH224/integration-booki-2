@@ -307,7 +307,6 @@ a {
 .voir-plus {
     font-size: 16px;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 .enjoy-marseille {
@@ -574,8 +573,16 @@ ul {
         border: none;
     }
 
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+    .carte-hebergement {
+        margin-top: 15px;
+    }
+
     .enjoy-marseille {
         padding-left: 10px;
+        padding-bottom: 0;
     }
     .Activites {
         display: grid;
