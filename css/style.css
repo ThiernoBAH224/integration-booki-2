@@ -488,15 +488,18 @@ ul {
     .menu {
         display: flex;
         justify-content: center;
-        padding-left: 67px;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 0;
         padding-top: 10px;
         width: 100%;
     }
 
     .menu a {
+        display: flex;
+        flex: 1 1 50%;
         padding-bottom: 10px;
         justify-content: center;
-        position: relative;
         border-bottom: 2px solid #f2f2f2;
     }
     .populaires-cards,
@@ -590,6 +593,7 @@ ul {
         grid-template-columns: 1fr;
         gap: 0px;
         width: 100%;
+        padding-right: 0;
     }
 
     nav {
