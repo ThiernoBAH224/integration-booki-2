@@ -12,6 +12,7 @@
 body {
     margin: 0;
     padding: 0;
+    max-width: 1440px;
 }
 
 .fa-solid {
@@ -385,6 +386,10 @@ ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
     nav div {
         padding-left: 20px;
     }
