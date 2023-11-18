@@ -12,6 +12,10 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+.containeur {
+    margin: auto;
     max-width: 1440px;
 }
 
@@ -609,7 +613,8 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
         gap: 0px;
-        width: 100%;
+        width: calc(100% - 60px);
+        padding: 30px;
     }
 
     nav {
