@@ -241,6 +241,10 @@ a {
     font-size: 16px;
 }
 
+.card-rating {
+    line-height: 2em;
+}
+
 .euro {
     font-weight: 700;
 }
@@ -606,7 +610,7 @@ ul {
     }
 
     .enjoy-marseille {
-        padding-left: 10px;
+        padding-left: 30px;
         padding-bottom: 0;
     }
     .Activites {
@@ -615,6 +619,7 @@ ul {
         gap: 0px;
         width: calc(100% - 60px);
         padding: 30px;
+        padding-top: 0;
     }
 
     nav {
@@ -627,6 +632,15 @@ ul {
         display: block;
         padding-top: 15px;
     }
+
+    .titre-footer {
+        line-height: 0;
+    }
+
+    ul {
+        margin-top: -18px;
+    }
+
 
     footer {
         display: flex;
